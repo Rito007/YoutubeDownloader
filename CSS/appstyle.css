@@ -1,0 +1,264 @@
+html{
+    background-color: 		#313338;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+}
+
+.titleHeader{
+    margin: 0px;
+    padding: 0px;
+   text-align: center;
+}
+
+.navBar{
+    background-color: 	#282b30;
+    color: white;
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    column-gap: 0px;
+    font-size: 15px;
+}
+
+
+.divLista{
+    height: 80%;
+    width: 50vw;
+    margin: 0px;
+    height: 70vh;
+}
+
+.divInputs{
+    width: 100%;
+    margin:0px;
+    height: 70vh;
+    border: 0px;
+    row-gap: 2vh;
+}
+
+
+.divBtns{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    padding-left: 50px;
+    justify-content: flex-start;
+    gap: 5vw;
+}
+
+.uList{
+    list-style: none;
+    height: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.stylledLi
+{
+    z-index: 999;
+    padding-left: 20px;
+    background-color: #595c64;
+    height: 70px;
+    display: block;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.stylledLi:hover{
+    position:relative;
+    cursor: pointer;
+    animation: move 1s;
+    animation-fill-mode: forwards;
+    border: 1px solid #ffffff;
+}
+
+.musicContent{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.musicSecondInfo{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    color: white;
+    width: 100%;
+}
+
+.musicHeader{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.minutesSpan{
+    color: white;
+    width: 100%;
+
+}
+
+.buttonsStyled{
+
+    width: 150px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #5780e7;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+.buttonsStyled:hover{
+    background-color: #366af0;
+    border: 1px solid #366af0;
+    cursor: pointer;
+}
+
+.divBtnD{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.inputsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.inputsBox{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px ;
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+.inputsBox:focus{
+    outline: 2px solid #366af0;
+}
+
+
+.inputSpan{
+    padding: 10px;
+    padding-left: 0px;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #282b30;
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+}
+
+
+.progressBarBody{
+        position:relative;
+        top: 77vh;
+
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+}
+.progressBarCenter{
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+
+.progressBar{
+    position: absolute;
+    background-color: rgb(104, 104, 104);
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.progressBarColor{
+   position:absolute;
+
+   height: 100%;
+   background-color: #366af0;
+   border-radius: 20px;
+}
+
+.progressBarTitle{
+    white-space: nowrap;
+    overflow: hidden;
+    top: 1px;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    z-index: 9;
+}
+
+
+
+
+
+
+@keyframes move{
+ 
+    0%{
+     transform:translateX(0);
+     position: relative;
+     width: 110%;
+    }
+     100%{
+       transform:translateX(-2%);
+       width: 110%;
+      }
+    }
+
+.gitLink{
+    cursor: pointer;
+}
+
+.firstInput{
+    margin-top: 40px;
+}

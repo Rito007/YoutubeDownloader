@@ -1,0 +1,26 @@
+{
+  "name": "youtubedownloader",
+  "version": "0.5.1",
+  "description": "App to download Youtube Mp3 files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elec": "electron .",
+    "essentials": "node ./essentials.js",
+    "buildApp": "npx electron-packager . YoutubeDownloader -all --asar --overwrite  --icon=C:\\Users\\Rito\\Desktop\\RtSploit\\YoutubeDownloader\\icon.ico"
+  },
+
+  "author": "Rito",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.5.0"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "electron-packager": "^17.1.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.7.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
