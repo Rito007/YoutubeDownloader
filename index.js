@@ -6,7 +6,7 @@ let ffmpegPath =require('@ffmpeg-installer/ffmpeg').path;
 let musicDefaultPath = Path.join(__dirname, 'musicas');
 const Ffmpeg = require('fluent-ffmpeg')
 
-const isDev = true
+const isDev = false
 
 
 
@@ -113,7 +113,7 @@ const createWindow = () => {
 
 
 const downloadMusic = (path)=>{
-  if(!musicas.length === 0)
+  if(!(musicas.length === 0))
   {
     dialog.showMessageBox(win, {title: 'Progresso', message: 'Download iniciado...!'})
     let musicsCompleted = 0;
