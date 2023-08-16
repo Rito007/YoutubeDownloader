@@ -2,6 +2,9 @@
 
 ### Youtube downloader is a free software to download videos without ads, you can add multiples videos and download them at the same time.
 
+# Download
+
+https://github.com/Rito007/YoutubeDownloader/releases/tag/YoutubeDownloaderMp3
 
 ## How it works
 
