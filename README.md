@@ -24,3 +24,9 @@
 
 ### This software has only mp3 conversion for now, but it will have mp4 download later.
 ### The Youtube Downloader is in Portuguese, maybe change it in the later too.
+
+
+# Future Updates
+
+* MP4 Conversion
+* English text
