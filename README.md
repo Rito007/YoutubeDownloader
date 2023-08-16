@@ -15,7 +15,7 @@
 <img src="https://github.com/Rito007/YoutubeDownloader/assets/86850635/24c7c207-58bf-4870-b157-d20a51e77ab7" style=" witdh: 40vw; height: 36vh;"/>
 
 ### Step 4. Download it...
-<img src="https://github.com/Rito007/YoutubeDownloader/assets/86850635/f493fa38-5993-4ca7-a3c0-53d364b7d6f2" style=" witdh: 40vw; height: 40vh;"/>
+<img src="https://github.com/Rito007/YoutubeDownloader/assets/86850635/f493fa38-5993-4ca7-a3c0-53d364b7d6f2" style=" witdh: 40vw; height: 36vh;"/>
 
 ### Step 5. Enjoy :)
 
