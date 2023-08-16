@@ -6,7 +6,7 @@ let ffmpegPath =require('@ffmpeg-installer/ffmpeg').path;
 let musicDefaultPath = Path.join(__dirname, 'musicas');
 const Ffmpeg = require('fluent-ffmpeg')
 
-const isDev = false;
+const isDev = false
 
 
 
