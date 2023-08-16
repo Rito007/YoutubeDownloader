@@ -26,7 +26,7 @@ https://github.com/Rito007/YoutubeDownloader/releases/tag/YoutubeDownloaderMp3
 # Another Information
 
 ### This software has only mp3 conversion for now, but it will have mp4 download later.
-### The Youtube Downloader is in Portuguese, maybe change it in the later too.
+### The Youtube Downloader is in Portuguese, maybe change it later too.
 ### Windows only
 
 # Future Updates
